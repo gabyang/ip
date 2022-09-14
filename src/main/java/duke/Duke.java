@@ -43,7 +43,7 @@ public class Duke {
         storage = new Storage();
         tasklist = new ArrayList<DukeTask>();
         Storage.setOnce(tasklist, "data/list.txt");
-        run();
+//        run();
     }
 
     public Duke(String filePath) {
